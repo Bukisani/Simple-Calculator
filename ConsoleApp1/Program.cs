@@ -23,32 +23,24 @@ namespace ConsoleApp1
 
             if (operation == "+")
             {
-
                 int result = Add(num1, num2);
-
                 Console.WriteLine(result);
             }
             else if (operation == "-")
             {
-
                 int result = Subtract(num1, num2);
 
                 Console.WriteLine(result);
             }
-
-            else if (operation == "*")
+                        else if (operation == "*")
             {
-
-                int result = Multiply(num1, num2);
-
-                Console.WriteLine(result);
+                        int result = Multiply(num1, num2);
+                                Console.WriteLine(result);
             }
             else if (operation == "/")
             {
-
-                int result = Subtract(num1, num2);
-
-                Console.WriteLine(result);
+                     int result = Subtract(num1, num2);
+                     Console.WriteLine(result);
             }
             else
             {
